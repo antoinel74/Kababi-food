@@ -1,0 +1,22 @@
+.cat_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: $paddingbutton;
+    width: 180px;
+    background-color: $white;
+    &:hover {
+        background-color: $golden;
+        color: $white;
+        img {
+            filter: brightness(0) invert(1);
+        }
+    }
+}
+
+.menu_arrow {
+    width: 1em;
+    height: auto;
+}

@@ -55,6 +55,42 @@ input {
 /* Fontsize */
 /* padding */
 /* margin */
+.title_large {
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.menu_title {
+  font-size: 1.2em;
+  padding: 1em;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.subtitle {
+  text-align: center;
+  padding: 1em;
+  font-family: "DM Sans", sans-serif;
+}
+
+.fade_title {
+  text-align: left;
+  font-size: 10vw;
+  margin-left: 2%;
+  color: #c8a96a;
+  opacity: 20%;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: -40px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+input[type=text], button {
+  font-family: "DM Sans", sans-serif;
+}
+
 .btn_clear {
   background: none;
   color: #ffffff;
@@ -153,6 +189,11 @@ input {
   color: #c8a96a;
 }
 
+.menu_icons {
+  width: 50px;
+  height: auto;
+}
+
 .email_input {
   display: flex;
 }
@@ -185,6 +226,29 @@ input {
   filter: none;
 }
 
+.cat_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding: 1em;
+  width: 180px;
+  background-color: #ffffff;
+}
+.cat_box:hover {
+  background-color: #c8a96a;
+  color: #ffffff;
+}
+.cat_box:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.menu_arrow {
+  width: 1em;
+  height: auto;
+}
+
 .special_box {
   display: grid;
   grid-template-columns: 5fr 1fr;
@@ -211,4 +275,32 @@ input {
 }
 .special_box:hover {
   border: 2px dashed #c8a96a;
+}
+
+.category {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  padding: 10% 0% 10% 0%;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(243, 236, 211, 0.249), rgba(232, 218, 188, 0.393)), url("../../img/banner/imgbgcategory.jpg");
+  background-size: cover;
+}
+
+.cat_container {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.cat_header {
+  height: 200px;
+}
+.cat_header img {
+  max-width: 50%;
+  max-height: 50%;
 }/*# sourceMappingURL=style.css.map */
