@@ -194,6 +194,38 @@ input[type=text], button {
   height: auto;
 }
 
+.email_input {
+  display: flex;
+}
+.email_input_text_box {
+  padding: 1em;
+  border: none;
+}
+.email_input_text_box:focus {
+  outline-color: #c8a96a;
+}
+.email_input_send_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  background-color: #c8a96a;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+.email_input_send_btn img {
+  width: 15px;
+  height: 15px;
+  filter: invert(100%);
+}
+.email_input_send_btn:hover {
+  background-color: #ffffff;
+}
+.email_input_send_btn:hover img {
+  filter: none;
+}
+
 .cat_box {
   display: flex;
   flex-direction: column;
@@ -215,6 +247,34 @@ input[type=text], button {
 .menu_arrow {
   width: 1em;
   height: auto;
+}
+
+.special_box {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  padding: 1em;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.special_box:first-child {
+  border: 2px dashed #c8a96a;
+}
+.special_box:first-child:hover {
+  border: 2px solid #ffffff;
+}
+.special_box_price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.special_box_item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.special_box:hover {
+  border: 2px dashed #c8a96a;
 }
 
 .category {

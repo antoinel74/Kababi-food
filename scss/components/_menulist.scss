@@ -1,0 +1,30 @@
+.special_box {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    padding: $paddingbutton;
+    border: 2px solid $white;
+    border-radius: 8px;
+    cursor: pointer;
+    &:first-child{
+        border: 2px dashed $golden;
+        &:hover{
+            border: 2px solid $white;
+        }
+    }
+    &_price{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &_item {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    &:hover{
+        border: 2px dashed $golden;
+    }
+    
+}
+
+
