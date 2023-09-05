@@ -1,0 +1,43 @@
+
+.btn_clear {
+    @include btn;
+    &:hover {
+        background-color: $golden;
+    }
+}
+
+.btn_gold {
+    @include btn;
+    background-color: $golden;
+    border: none;
+    &:hover {
+        background: none;
+        color: $black; 
+        img {
+            filter: none;
+        }
+    }
+}
+
+.btn_white {
+    @include btn;
+    color: $black;
+    img {
+        filter: none;
+    }
+    &:hover {
+        background-color: $golden;
+        color: $white;
+        img {
+            filter: invert(100%);
+        }
+    }
+}
+
+.btn_white_blog {
+    @extend .btn_white;
+    border: none;
+    
+}
+
+
