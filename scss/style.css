@@ -1,21 +1,4 @@
-/* Import title font and default test font */
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap");
-/* Colors */
-/* Fonts */
-/* Fontweights */
-/* Fontsize */
-/* padding */
-/* margin */
-.text_box {
-  padding: 1em;
-  border: none;
-}
-
-.input_btn {
-  padding: 1em;
-  background-image: url("../../img/Other/arrow.png") cover;
-}
-
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -62,4 +45,142 @@ table {
 
 input {
   border-radius: 0;
+}
+
+/* Import title font and default test font */
+/* Buttons */
+/* Colors */
+/* Fonts */
+/* Fontweights */
+/* Fontsize */
+/* padding */
+/* margin */
+.btn_clear {
+  background: none;
+  color: #ffffff;
+  border: 2px solid #b0b0b0;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 0.6em;
+  text-transform: uppercase;
+}
+.btn_clear img {
+  width: 8px;
+  height: 8px;
+  margin-left: 0.6em;
+  filter: invert(100%);
+}
+.btn_clear:hover {
+  background-color: #c8a96a;
+}
+
+.btn_gold {
+  background: none;
+  color: #ffffff;
+  border: 2px solid #b0b0b0;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  background-color: #c8a96a;
+  border: none;
+}
+.btn_gold img {
+  width: 8px;
+  height: 8px;
+  margin-left: 0.6em;
+  filter: invert(100%);
+}
+.btn_gold:hover {
+  background: none;
+  color: #0f0f0f;
+}
+.btn_gold:hover img {
+  filter: none;
+}
+
+.btn_white, .btn_white_blog {
+  background: none;
+  color: #ffffff;
+  border: 2px solid #b0b0b0;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  color: #0f0f0f;
+}
+.btn_white img, .btn_white_blog img {
+  width: 8px;
+  height: 8px;
+  margin-left: 0.6em;
+  filter: invert(100%);
+}
+.btn_white img, .btn_white_blog img {
+  filter: none;
+}
+.btn_white:hover, .btn_white_blog:hover {
+  background-color: #c8a96a;
+  color: #ffffff;
+}
+.btn_white:hover img, .btn_white_blog:hover img {
+  filter: invert(100%);
+}
+
+.btn_white_blog {
+  border: none;
+}
+
+.fa-brands {
+  color: #b0b0b0;
+  font-size: 1.2em;
+  padding: 0.3em;
+  background-color: rgb(45, 45, 45);
+  border-radius: 50%;
+}
+.fa-brands:hover {
+  color: #ffffff;
+  background-color: #c8a96a;
+}
+
+.fa-icons {
+  margin: 0.3em;
+  color: #c8a96a;
+}
+
+.email_input {
+  display: flex;
+}
+.email_input_text_box {
+  padding: 1em;
+  border: none;
+}
+.email_input_text_box:focus {
+  outline-color: #c8a96a;
+}
+.email_input_send_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  background-color: #c8a96a;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+.email_input_send_btn img {
+  width: 15px;
+  height: 15px;
+  filter: invert(100%);
+}
+.email_input_send_btn:hover {
+  background-color: #ffffff;
+}
+.email_input_send_btn:hover img {
+  filter: none;
 }/*# sourceMappingURL=style.css.map */

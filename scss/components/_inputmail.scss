@@ -1,9 +1,33 @@
-.text_box {
-    padding: 1em;
-    border: none;
-}
 
-.input_btn {
-    padding: 1em;
-    background-image: url("../../img/Other/arrow.png") cover;
+.email_input{
+    display: flex;
+    &_text_box{
+        padding: $paddingbutton;
+        border: none;
+        &:focus{
+            outline-color: $golden;
+        }
+    }
+    
+    &_send_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: $paddingbutton;
+        background-color: $golden;
+        border: none;
+        border-radius: 0;
+        cursor: pointer;
+        img {
+            width: 15px;
+            height: 15px;
+            filter: invert(100%);
+        }
+        &:hover{
+            background-color: $white;
+            img {
+                filter: none;
+            }
+        }
+    }
 }
