@@ -10,7 +10,7 @@
     &:hover {
         background-color: $golden;
         color: $white;
-        img {
+            img {
             filter: brightness(0) invert(1);
         }
     }

@@ -1,0 +1,27 @@
+.blog_cards{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background: $sepia;
+    &_img{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    &_content{
+        padding: $paddingbutton;
+        &_info {
+            display: flex;
+            gap: 1em;
+            figure{
+                width: 15px;
+                height: 15px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
