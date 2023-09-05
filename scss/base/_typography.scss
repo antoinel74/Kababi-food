@@ -1,0 +1,35 @@
+.title_large {
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: $default;
+    font-family: $titre;
+}
+
+.menu_title {
+    font-size: 1.2em;
+    padding: $paddingbutton;
+    font-family: $titre;
+}
+
+.subtitle {
+    text-align: center;
+    padding: $paddingbutton;
+    font-family: $text;
+}
+
+.fade_title {
+    text-align: left;
+    font-size: 10vw;
+    margin-left: 2%;
+    color: $golden;
+    opacity: 20%;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: -40px;
+    font-family: $titre;
+}
+
+input[type="text"], button {
+    font-family: $text;
+}
