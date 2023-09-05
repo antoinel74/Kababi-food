@@ -1,0 +1,32 @@
+.category {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 10% 0% 10% 0%;
+    position: relative;
+    background-image: 
+        linear-gradient(to bottom, rgba(243, 236, 211, 0.249),rgba(232, 218, 188, 0.393)), 
+        url('../../img/banner/imgbgcategory.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+}
+
+.cat_container {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.cat_header {
+    height: 200px;
+    img{
+        max-width: 50%;
+        max-height: 50%;
+    }
+}
