@@ -64,7 +64,7 @@ input {
 }
 
 .menu_title {
-  font-size: 1.2em;
+  font-size: 1.1em;
   padding: 1em;
   font-family: "Cormorant Garamond", serif;
 }
@@ -83,7 +83,7 @@ input {
   opacity: 20%;
   text-transform: uppercase;
   position: absolute;
-  margin-top: -40px;
+  margin-top: -4%;
   font-family: "Cormorant Garamond", serif;
 }
 
@@ -199,9 +199,9 @@ input[type=text], button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 15px;
-  padding: 1em;
-  width: 180px;
+  margin: 10px;
+  padding: 50px 0px 50px 0px;
+  width: 170px;
   background-color: #ffffff;
 }
 .cat_box:hover {
@@ -224,23 +224,28 @@ input[type=text], button {
   background-position: center;
   padding: 10% 0% 10% 0%;
   position: relative;
-  background-image: linear-gradient(to bottom, rgba(243, 236, 211, 0.249), rgba(232, 218, 188, 0.393)), url("../../img/banner/imgbgcategory.jpg");
-  background-size: cover;
 }
 
 .cat_container {
-  margin: 20px;
+  margin: 0px 70px 0px 70px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   box-sizing: border-box;
+  margin-top: 60px;
 }
 
 .cat_header {
   height: 200px;
 }
-.cat_header img {
-  max-width: 50%;
-  max-height: 50%;
+
+.categorybg {
+  width: 100%;
+  height: auto;
+  padding: 8% 0 13% 0%;
+  background-image: linear-gradient(to bottom, rgba(243, 236, 211, 0.249), rgba(232, 218, 188, 0.393)), url("../../img/banner/imgbgcategory.jpg");
+  background-size: contain;
+  background-repeat: repeat-y;
+  background-position: fixed;
 }/*# sourceMappingURL=style.css.map */
