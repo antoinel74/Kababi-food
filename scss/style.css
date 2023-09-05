@@ -295,6 +295,12 @@ input[type=text], button {
   box-sizing: border-box;
   margin-top: 60px;
 }
+.cat_container a {
+  text-decoration: none;
+}
+.cat_container a:visited {
+  color: #0f0f0f;
+}
 
 .cat_header {
   height: 200px;
