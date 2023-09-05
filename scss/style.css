@@ -307,7 +307,7 @@ input[type=text], button {
   background-image: linear-gradient(to bottom, rgba(243, 236, 211, 0.249), rgba(232, 218, 188, 0.393)), url("../../img/banner/imgbgcategory.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
 }
 
 .dish_container {
@@ -316,26 +316,26 @@ input[type=text], button {
   justify-content: center;
   align-items: baseline;
   background: linear-gradient(transparent 45%, rgb(255, 255, 255) 40%) no-repeat;
-  padding: 6vw 0 3vw 0;
+  padding: 6vw 3vw 3vw 3vw;
 }
 .dish_container .dishleftcontainer {
-  width: 230px;
+  width: 260px;
 }
 .dish_container .dishleftcontainer img {
-  width: 100%;
+  width: 80%;
   height: auto;
   margin-bottom: 1em;
 }
 .dish_container .dishrightcontainer {
-  width: 270px;
+  width: 260px;
 }
 .dish_container .dishrightcontainer img {
   width: 100%;
   height: auto;
-  margin-bottom: 3em;
+  margin-bottom: 20%;
 }
 .dish_container .dishcentralcontainer {
-  width: 600px;
+  width: 550px;
   margin: 0 2em 0 2em;
 }
 .dish_container .dishcentralcontainer img {

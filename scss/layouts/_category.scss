@@ -33,7 +33,7 @@
     -o-background-size: contain;
     background-size: contain; 
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 .dish_container {
@@ -42,25 +42,25 @@
     justify-content: center;
     align-items: baseline;
     background: linear-gradient(transparent 45%, rgb(255, 255, 255) 40%) no-repeat;
-    padding: 6vw 0 3vw 0;
+    padding: 6vw 3vw 3vw 3vw;
     .dishleftcontainer {
-        width: 230px;
+        width: 260px;
         img {
-            width: 100%;
+            width: 80%;
             height: auto;
             margin-bottom: 1em;
         }
     }
     .dishrightcontainer {
-        width: 270px;
+        width: 260px;
         img {
             width: 100%;
             height: auto;
-            margin-bottom: 3em;
+            margin-bottom: 20%;
         }
     }
     .dishcentralcontainer {
-        width: 600px;
+        width: 550px;
         margin: 0 2em 0 2em;
         img {
             width: 100%;
