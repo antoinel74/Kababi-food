@@ -9,6 +9,7 @@
 .btn_gold {
     @include btn;
     background-color: $golden;
+    border: none;
     &:hover {
         background: none;
         color: $black; 
@@ -31,6 +32,12 @@
             filter: invert(100%);
         }
     }
+}
+
+.btn_white_blog {
+    @extend .btn_white;
+    border: none;
+    
 }
 
 
