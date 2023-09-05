@@ -183,4 +183,32 @@ input {
 }
 .email_input_send_btn:hover img {
   filter: none;
+}
+
+.special_box {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  padding: 1em;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.special_box:first-child {
+  border: 2px dashed #c8a96a;
+}
+.special_box:first-child:hover {
+  border: 2px solid #ffffff;
+}
+.special_box_price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.special_box_item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.special_box:hover {
+  border: 2px dashed #c8a96a;
 }/*# sourceMappingURL=style.css.map */
