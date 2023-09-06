@@ -3,7 +3,8 @@
     height: auto;
     background-size: cover;
     background-position: center;
-    padding: 10% 0% 10% 0%;
+    padding-top: $paddingsection;
+    padding-bottom: $paddingsection;
     position: relative;
 }
 
@@ -73,4 +74,3 @@
         }
     }
 }
-
