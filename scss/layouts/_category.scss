@@ -5,28 +5,72 @@
     background-position: center;
     padding: 10% 0% 10% 0%;
     position: relative;
-    background-image: 
-        linear-gradient(to bottom, rgba(243, 236, 211, 0.249),rgba(232, 218, 188, 0.393)), 
-        url('../../img/banner/imgbgcategory.jpg');
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover; 
 }
 
 .cat_container {
-    margin: 20px;
+    margin: 0px 70px 0px 70px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     box-sizing: border-box;
-}
-
-.cat_header {
-    height: 200px;
-    img{
-        max-width: 50%;
-        max-height: 50%;
+    margin-top: 60px;
+    a {
+        text-decoration: none;
+    }
+    a:visited {
+        color: $black;
     }
 }
+
+
+.categorybg {
+    width: 100%; 
+    height: auto;
+    padding: 8% 0 0% 0%;
+    background-image: 
+    linear-gradient(to bottom, rgba(243, 236, 211, 0.249),rgba(232, 218, 188, 0.393)), 
+    url('../../img/banner/imgbgcategory.jpg');
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.dish_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    background: linear-gradient(transparent 45%, rgb(255, 255, 255) 40%) no-repeat;
+    padding: 6vw 3vw 3vw 3vw;
+    .dishleftcontainer {
+        width: 260px;
+        img {
+            width: 80%;
+            height: auto;
+            margin-bottom: 1em;
+        }
+    }
+    .dishrightcontainer {
+        width: 260px;
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20%;
+        }
+    }
+    .dishcentralcontainer {
+        width: 550px;
+        margin: 0 2em 0 2em;
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            border: solid 20px $white;
+        }
+    }
+}
+

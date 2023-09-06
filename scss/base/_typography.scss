@@ -7,7 +7,7 @@
 }
 
 .menu_title {
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: $paddingbutton;
     font-family: $titre;
 }
@@ -20,16 +20,35 @@
 
 .fade_title {
     text-align: left;
-    font-size: 10vw;
+    font-size: 9vw;
     margin-left: 2%;
     color: $golden;
     opacity: 20%;
     text-transform: uppercase;
     position: absolute;
-    margin-top: -40px;
+    margin-top: -4%;
     font-family: $titre;
 }
 
-input[type="text"], button {
+input[type="text"], button, p {
     font-family: $text;
+}
+
+p {
+    font-weight: $light;
+    font-size: 0.9em;
+}
+
+.special_box_title {
+    font-family: $titre;
+    font-size: 1.3em;
+    font-weight: $medium;
+    line-height: 1.6;
+    text-transform: capitalize;
+}
+
+.price {
+    font-size: 3em;
+    color: $golden;
+    font-family: $titre;
 }

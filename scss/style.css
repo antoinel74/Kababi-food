@@ -64,7 +64,7 @@ input {
 }
 
 .menu_title {
-  font-size: 1.2em;
+  font-size: 1.1em;
   padding: 1em;
   font-family: "Cormorant Garamond", serif;
 }
@@ -77,17 +77,17 @@ input {
 
 .fade_title {
   text-align: left;
-  font-size: 10vw;
+  font-size: 9vw;
   margin-left: 2%;
   color: #c8a96a;
   opacity: 20%;
   text-transform: uppercase;
   position: absolute;
-  margin-top: -40px;
+  margin-top: -4%;
   font-family: "Cormorant Garamond", serif;
 }
 
-input[type=text], button {
+input[type=text], button, p {
   font-family: "DM Sans", sans-serif;
 }
 
@@ -123,6 +123,25 @@ input[type=text], button {
 .blog_cards_content_info figure img {
   width: 100%;
   height: 100%;
+}
+
+p {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+.special_box_title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 1.6;
+  text-transform: capitalize;
+}
+
+.price {
+  font-size: 3em;
+  color: #c8a96a;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .btn_clear {
@@ -265,9 +284,9 @@ input[type=text], button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 15px;
-  padding: 1em;
-  width: 180px;
+  margin: 10px;
+  padding: 50px 0px 50px 0px;
+  width: 170px;
   background-color: #ffffff;
 }
 .cat_box:hover {
@@ -286,9 +305,12 @@ input[type=text], button {
 .special_box {
   display: grid;
   grid-template-columns: 5fr 1fr;
+  width: 100%;
+  background-color: #ffffff;
   padding: 1em;
   border: 2px solid #ffffff;
   border-radius: 8px;
+  z-index: 1;
   cursor: pointer;
 }
 .special_box:first-child {
@@ -318,23 +340,103 @@ input[type=text], button {
   background-position: center;
   padding: 10% 0% 10% 0%;
   position: relative;
-  background-image: linear-gradient(to bottom, rgba(243, 236, 211, 0.249), rgba(232, 218, 188, 0.393)), url("../../img/banner/imgbgcategory.jpg");
-  background-size: cover;
 }
 
 .cat_container {
-  margin: 20px;
+  margin: 0px 70px 0px 70px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   box-sizing: border-box;
+  margin-top: 60px;
+}
+.cat_container a {
+  text-decoration: none;
+}
+.cat_container a:visited {
+  color: #0f0f0f;
 }
 
-.cat_header {
-  height: 200px;
+.categorybg {
+  width: 100%;
+  height: auto;
+  padding: 8% 0 0% 0%;
+  background-image: linear-gradient(to bottom, rgba(243, 236, 211, 0.249), rgba(232, 218, 188, 0.393)), url("../../img/banner/imgbgcategory.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
 }
-.cat_header img {
-  max-width: 50%;
-  max-height: 50%;
+
+.dish_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  background: linear-gradient(transparent 45%, rgb(255, 255, 255) 40%) no-repeat;
+  padding: 6vw 3vw 3vw 3vw;
+}
+.dish_container .dishleftcontainer {
+  width: 260px;
+}
+.dish_container .dishleftcontainer img {
+  width: 80%;
+  height: auto;
+  margin-bottom: 1em;
+}
+.dish_container .dishrightcontainer {
+  width: 260px;
+}
+.dish_container .dishrightcontainer img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20%;
+}
+.dish_container .dishcentralcontainer {
+  width: 550px;
+  margin: 0 2em 0 2em;
+}
+.dish_container .dishcentralcontainer img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: solid 20px #ffffff;
+}
+
+.special_offer {
+  margin-top: 50px;
+  padding-top: 8%;
+  background: linear-gradient(to bottom, rgba(243, 236, 211, 0.249), rgba(232, 218, 188, 0.393));
+  position: relative;
+  width: 100%;
+}
+.special_offer .bgmenu_right {
+  position: absolute;
+  width: 28%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+.special_offer .bgmenu_right img {
+  height: 100%;
+}
+.special_offer .bgmenu_left {
+  position: absolute;
+  width: 12%;
+  left: 0;
+  top: 50%;
+}
+.special_offer .bgmenu_left img {
+  width: 100%;
+}
+
+.special_list {
+  display: grid;
+  padding: 5% 0 10% 0;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  margin: 0 11% 0 11%;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
 }/*# sourceMappingURL=style.css.map */
