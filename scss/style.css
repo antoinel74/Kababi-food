@@ -471,6 +471,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 1em;
 }
 .brands figure {
   margin: 3%;
@@ -482,4 +483,8 @@ p {
 }
 .brands img {
   width: 100%;
+}
+
+.blogpreview {
+  padding-bottom: 1em;
 }/*# sourceMappingURL=style.css.map */

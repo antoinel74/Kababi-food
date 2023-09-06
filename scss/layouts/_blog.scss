@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: $paddingbutton;
     figure {
         margin: 3%;
         filter: grayscale(100%);
@@ -24,5 +25,8 @@
     img {
         width: 100%;
     }
+}
 
+.blogpreview {
+    padding-bottom: $paddingbutton;
 }
