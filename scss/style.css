@@ -65,7 +65,7 @@ input {
 }
 
 .menu_title {
-  font-size: 1.1em;
+  font-size: 1.3em;
   padding: 1em;
   font-family: "Cormorant Garamond", serif;
 }
@@ -78,7 +78,7 @@ input {
 
 .fade_title {
   text-align: left;
-  font-size: 9vw;
+  font-size: 9em;
   padding-left: 10px;
   color: #c8a96a;
   opacity: 20%;
@@ -476,6 +476,9 @@ p {
   margin: 3%;
   filter: grayscale(100%);
   opacity: 70%;
+}
+.brands figure:hover {
+  filter: none;
 }
 .brands img {
   width: 100%;
