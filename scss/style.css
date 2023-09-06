@@ -86,7 +86,6 @@ input {
   position: absolute;
   margin-top: -4%;
   font-family: "Cormorant Garamond", serif;
-  z-index: -1;
 }
 
 input[type=text], button, p {
