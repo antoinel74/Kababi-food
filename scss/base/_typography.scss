@@ -31,6 +31,11 @@
     font-family: $titre;
 }
 
+.fade_title_back {
+    @extend .fade_title;
+    z-index: -1;
+}
+
 input[type="text"], button, p {
     font-family: $text;
 }
