@@ -4,6 +4,7 @@
     text-align: center;
     font-weight: $default;
     font-family: $titre;
+    z-index: 0;
 }
 
 .menu_title {
@@ -21,13 +22,14 @@
 .fade_title {
     text-align: left;
     font-size: 9vw;
-    margin-left: 2%;
+    padding-left: 10px;
     color: $golden;
     opacity: 20%;
     text-transform: uppercase;
     position: absolute;
     margin-top: -4%;
     font-family: $titre;
+    z-index: 1;
 }
 
 input[type="text"], button, p {
@@ -51,4 +53,10 @@ p {
     font-size: 3em;
     color: $golden;
     font-family: $titre;
+}
+
+.blog_cards_content_info {
+    font-family: $text;
+    text-transform: uppercase;
+    font-size: 0.7em;
 }

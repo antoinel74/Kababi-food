@@ -11,7 +11,7 @@
     background-color: $golden;
     border: none;
     &:hover {
-        background: none;
+        background: $white;
         color: $black; 
         img {
             filter: none;
@@ -22,6 +22,7 @@
 .btn_white {
     @include btn;
     color: $black;
+    background-color: $white;
     img {
         filter: none;
     }
