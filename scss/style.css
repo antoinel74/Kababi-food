@@ -87,8 +87,27 @@ input {
   font-family: "Cormorant Garamond", serif;
 }
 
-input[type=text], button {
+input[type=text], button, p {
   font-family: "DM Sans", sans-serif;
+}
+
+p {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+.special_box_title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 1.6;
+  text-transform: capitalize;
+}
+
+.price {
+  font-size: 3em;
+  color: #c8a96a;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .btn_clear {
@@ -252,9 +271,12 @@ input[type=text], button {
 .special_box {
   display: grid;
   grid-template-columns: 5fr 1fr;
+  width: 100%;
+  background-color: #ffffff;
   padding: 1em;
   border: 2px solid #ffffff;
   border-radius: 8px;
+  z-index: 1;
   cursor: pointer;
 }
 .special_box:first-child {
@@ -302,10 +324,6 @@ input[type=text], button {
   color: #0f0f0f;
 }
 
-.cat_header {
-  height: 200px;
-}
-
 .categorybg {
   width: 100%;
   height: auto;
@@ -349,4 +367,42 @@ input[type=text], button {
   height: auto;
   border-radius: 50%;
   border: solid 20px #ffffff;
+}
+
+.special_offer {
+  margin-top: 50px;
+  padding-top: 8%;
+  background: linear-gradient(to bottom, rgba(243, 236, 211, 0.249), rgba(232, 218, 188, 0.393));
+  position: relative;
+  width: 100%;
+}
+.special_offer .bgmenu_right {
+  position: absolute;
+  width: 28%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+.special_offer .bgmenu_right img {
+  height: 100%;
+}
+.special_offer .bgmenu_left {
+  position: absolute;
+  width: 12%;
+  left: 0;
+  top: 50%;
+}
+.special_offer .bgmenu_left img {
+  width: 100%;
+}
+
+.special_list {
+  display: grid;
+  padding: 5% 0 10% 0;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  margin: 0 11% 0 11%;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
 }/*# sourceMappingURL=style.css.map */

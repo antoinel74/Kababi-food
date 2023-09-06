@@ -30,6 +30,25 @@
     font-family: $titre;
 }
 
-input[type="text"], button {
+input[type="text"], button, p {
     font-family: $text;
+}
+
+p {
+    font-weight: $light;
+    font-size: 0.9em;
+}
+
+.special_box_title {
+    font-family: $titre;
+    font-size: 1.3em;
+    font-weight: $medium;
+    line-height: 1.6;
+    text-transform: capitalize;
+}
+
+.price {
+    font-size: 3em;
+    color: $golden;
+    font-family: $titre;
 }
