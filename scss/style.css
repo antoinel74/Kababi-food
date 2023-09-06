@@ -86,7 +86,7 @@ input {
   position: absolute;
   margin-top: -4%;
   font-family: "Cormorant Garamond", serif;
-  z-index: 1;
+  z-index: -1;
 }
 
 input[type=text], button, p {
@@ -320,7 +320,7 @@ p {
 .special_box {
   display: grid;
   grid-template-columns: 5fr 1fr;
-  width: 100%;
+  width: 550px;
   background-color: #ffffff;
   padding: 1em;
   border: 2px solid #ffffff;
@@ -420,14 +420,14 @@ p {
 }
 
 .special_offer {
+  width: 100%;
+  height: auto;
   padding-top: 8%;
   background: linear-gradient(to bottom, rgba(243, 236, 211, 0.249), rgba(232, 218, 188, 0.393));
   position: relative;
-  width: 100%;
 }
 .special_offer .bgmenu_right {
   position: absolute;
-  width: 28%;
   height: 100%;
   top: 0;
   right: 0;
@@ -436,26 +436,45 @@ p {
   height: 100%;
 }
 .special_offer .bgmenu_left {
+  display: inline-block;
   position: absolute;
-  width: 12%;
+  max-width: 15%;
+  -o-object-fit: contain;
+     object-fit: contain;
   left: 0;
-  top: 50%;
+  top: 40%;
 }
 .special_offer .bgmenu_left img {
   width: 100%;
+  height: auto;
 }
 
 .special_list {
   display: grid;
   padding: 5% 0 10% 0;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: auto auto;
   gap: 10px;
-  margin: 0 11% 0 11%;
+  margin: 0 10% 0 10%;
   justify-content: center;
   align-items: center;
   place-items: center;
 }
 
+@media only screen and (max-width: 1080px) {
+  .special_list {
+    display: flex;
+    flex-direction: column;
+  }
+  .bgmenu_left {
+    display: none;
+  }
+  .bgmenu_left img {
+    display: none;
+  }
+  .bgmenu_right {
+    display: none;
+  }
+}
 .blog {
   margin-top: 10%;
   white-space: normal;

@@ -1,7 +1,7 @@
 .special_box {
     display: grid;
     grid-template-columns: 5fr 1fr;
-    width: 100%;
+    width: 550px;
     background-color: $white;
     padding: $paddingbutton;
     border: 2px solid $white;
@@ -26,8 +26,7 @@
     }
     &:hover{
         border: 2px dashed $golden;
-    }
-    
+    }   
 }
 
 

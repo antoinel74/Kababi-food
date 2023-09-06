@@ -29,7 +29,7 @@
     position: absolute;
     margin-top: -4%;
     font-family: $titre;
-    z-index: 1;
+    z-index: -1;
 }
 
 input[type="text"], button, p {
