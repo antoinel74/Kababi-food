@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 300px;
     background: $sepia;
+    padding-bottom: $paddingbutton;
     &_img{
         img{
             width: 100%;
@@ -11,9 +12,16 @@
     }
     &_content{
         padding: $paddingbutton;
+        button {
+            margin-top: $paddingbutton;
+        }
         &_info {
             display: flex;
             gap: 1em;
+            padding-bottom: $paddingbutton;
+            &_author{
+                display: flex;
+            }
             figure{
                 width: 15px;
                 height: 15px;

@@ -96,6 +96,7 @@ input[type=text], button {
   flex-direction: column;
   width: 300px;
   background: linear-gradient(to bottom, rgba(243, 236, 211, 0.249), rgba(232, 218, 188, 0.393));
+  padding-bottom: 1em;
 }
 .blog_cards_img img {
   width: 100%;
@@ -104,9 +105,16 @@ input[type=text], button {
 .blog_cards_content {
   padding: 1em;
 }
+.blog_cards_content button {
+  margin-top: 1em;
+}
 .blog_cards_content_info {
   display: flex;
   gap: 1em;
+  padding-bottom: 1em;
+}
+.blog_cards_content_info_author {
+  display: flex;
 }
 .blog_cards_content_info figure {
   width: 15px;
