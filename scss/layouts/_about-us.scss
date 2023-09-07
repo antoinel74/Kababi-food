@@ -1,0 +1,34 @@
+.why_us {
+    background-color: $white;
+    padding-top: $paddingsection;
+    position: relative;
+
+    .bg_about_icon{
+        position: absolute;
+        top: 50px;
+        right: 40px;
+    }
+    &_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: $paddingcontent;
+        gap: $paddingbutton;
+
+
+        figure {
+            width: 280px;
+
+            img {
+                 width: 100%;
+                height: 100%;
+            }
+        }
+
+        &_info {
+            width: 300px;
+        }
+     }
+}
+
