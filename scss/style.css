@@ -397,20 +397,50 @@ p {
 .gallery_card--a {
   grid-area: a;
 }
+.gallery_card--a:hover {
+  filter: grayscale(100%);
+  transition: 0.2s;
+  transition-timing-function: ease-in;
+}
 .gallery_card--b {
   grid-area: b;
+}
+.gallery_card--b:hover {
+  filter: grayscale(100%);
+  transition: 0.2s;
+  transition-timing-function: ease-in;
 }
 .gallery_card--c {
   grid-area: c;
 }
+.gallery_card--c:hover {
+  filter: grayscale(100%);
+  transition: 0.2s;
+  transition-timing-function: ease-in;
+}
 .gallery_card--d {
   grid-area: d;
+}
+.gallery_card--d:hover {
+  filter: grayscale(100%);
+  transition: 0.2s;
+  transition-timing-function: ease-in;
 }
 .gallery_card--e {
   grid-area: e;
 }
+.gallery_card--e:hover {
+  filter: grayscale(100%);
+  transition: 0.2s;
+  transition-timing-function: ease-in;
+}
 .gallery_card--f {
   grid-area: f;
+}
+.gallery_card--f:hover {
+  filter: grayscale(100%);
+  transition: 0.2s;
+  transition-timing-function: ease-in;
 }
 
 .category {
