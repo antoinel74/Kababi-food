@@ -1,20 +1,50 @@
 .gallery_card {
     &--a {
         grid-area: a;
+        &:hover {
+            filter: grayscale(100%);
+            transition: 0.2s;
+            transition-timing-function: ease-in;
+        }
     }
     &--b {
         grid-area: b;
+        &:hover {
+            filter: grayscale(100%);
+            transition: 0.2s;
+            transition-timing-function: ease-in;
+        }
     }
     &--c {
         grid-area: c;
+        &:hover {
+            filter: grayscale(100%);
+            transition: 0.2s;
+            transition-timing-function: ease-in;
+        }
     }
     &--d {
         grid-area: d;
+        &:hover {
+            filter: grayscale(100%);
+            transition: 0.2s;
+            transition-timing-function: ease-in; 
+        }
     }
     &--e {
         grid-area: e;
+        &:hover {
+            filter: grayscale(100%);
+            transition: 0.2s;
+            transition-timing-function: ease-in;
+        }
     }
     &--f {
         grid-area: f;
+        &:hover {
+            filter: grayscale(100%);
+            transition: 0.2s;
+            transition-timing-function: ease-in;
+        }
     }
 }

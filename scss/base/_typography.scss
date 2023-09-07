@@ -36,15 +36,6 @@
     z-index: -1;
 }
 
-@media only screen and (max-width: 1080px) {
-    .fade_title {
-        display: none;
-    }
-    .fade_title_back {
-        display: none;
-    }
-    
-}
 input[type="text"], button, p {
     font-family: $text;
 }
@@ -52,6 +43,22 @@ input[type="text"], button, p {
 p {
     font-weight: $light;
     font-size: $smalltext;
+    font-optical-sizing: auto;
+}
+
+@media only screen and (max-width: 1080px) {
+    .fade_title {
+        display: none;
+    }
+    .fade_title_back {
+        display: none;
+    }
+    .title_large {
+        font-size: 1.6em;
+    }
+    .subtitle {
+        font-size: $smalltext;
+    }
 }
 
 .special_box_title {

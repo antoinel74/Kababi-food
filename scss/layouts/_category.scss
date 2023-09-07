@@ -2,39 +2,36 @@
     width: 100%;
     height: auto;
     padding-bottom: $paddingsection;
-}
-
-.cat_container {
-    margin: 0px 70px 0px 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    margin-top: 60px;
-    a {
-        text-decoration: none;
+    .categorybg {
+        width: 100%; 
+        position: relative;
+        height: auto;
+        padding-top: $paddingsection;
+        background-image: 
+        linear-gradient(to bottom, rgba(243, 236, 211, 0.249),rgba(232, 218, 188, 0.393)), 
+        url('../../img/banner/imgbgcategory.jpg');
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain; 
+        background-repeat: no-repeat;
+        background-position: top;
     }
-    a:visited {
-        color: $black;
+    .cat_container {
+        margin: 0px 70px 0px 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        margin-top: 60px;
+        a {
+            text-decoration: none;
+        }
+        a:visited {
+            color: $black;
+        }
     }
-}
-
-
-.categorybg {
-    width: 100%; 
-    position: relative;
-    height: auto;
-    padding-top: $paddingsection;
-    background-image: 
-    linear-gradient(to bottom, rgba(243, 236, 211, 0.249),rgba(232, 218, 188, 0.393)), 
-    url('../../img/banner/imgbgcategory.jpg');
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain; 
-    background-repeat: no-repeat;
-    background-position: top;
 }
 
 .dish_container {
