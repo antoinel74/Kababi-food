@@ -78,3 +78,9 @@ p {
 .blackbgtitle {
     color: #202020;
 }
+
+.footertitle {
+    font-family: $titre;
+    font-size: $titletext;
+    margin-bottom: $normaltext;
+}

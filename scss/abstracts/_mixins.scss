@@ -17,3 +17,13 @@
         filter: invert(100%);
     }
 }
+
+@mixin link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    &:visited {
+        color: white;
+        text-decoration: none;
+    }
+}

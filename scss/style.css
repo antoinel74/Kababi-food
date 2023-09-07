@@ -135,6 +135,12 @@ p {
   color: #202020;
 }
 
+.footertitle {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
 .blog_cards {
   display: flex;
   flex-direction: column;
@@ -284,6 +290,7 @@ p {
 }
 .email_input_text_box {
   padding: 1em;
+  padding-right: 50px;
   border: none;
 }
 .email_input_text_box:focus {
@@ -626,4 +633,96 @@ p {
   display: flex;
   padding: 3em;
   justify-content: center;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-image: url(../../img/footer/img-ng-footer.jpg);
+  color: white;
+}
+footer a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+footer a:visited {
+  color: white;
+  text-decoration: none;
+}
+footer .logofooter {
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+}
+footer .logofooter img {
+  width: 200px;
+  height: auto;
+}
+footer .container_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+footer li {
+  padding-top: 10px;
+  line-height: 1.6;
+  font-size: 0.9em;
+  font-family: "DM Sans", sans-serif;
+  opacity: 50%;
+}
+footer .info_footer_news {
+  padding: 0 3em 3em 3em;
+  max-width: 390px;
+}
+footer .info_footer_news li {
+  margin-bottom: 20px;
+}
+footer .info_footer {
+  padding: 0 3em 3em 3em;
+}
+footer .info_footer_contact {
+  padding: 0 3em 3em 3em;
+  max-width: 390px;
+}
+footer .container_copyright {
+  margin: 0 5% 0 5%;
+  border-top: 1px solid rgba(255, 255, 255, 0.3137254902);
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+}
+footer .logo_final {
+  display: flex;
+  justify-content: center;
+}
+footer .logo_final img {
+  max-width: 60px;
+  height: auto;
+}
+footer .copyright {
+  width: 65%;
+  float: left;
+  color: #b0b0b0;
+  font-size: 0.9em;
+}
+footer .copyright a {
+  color: #c8a96a;
+  font-weight: 500;
+}
+footer .social {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20%;
+}
+
+@media only screen and (max-width: 900px) {
+  .info_footer {
+    display: none;
+  }
+  .logo_final_img {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

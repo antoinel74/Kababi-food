@@ -3,6 +3,7 @@
     display: flex;
     &_text_box{
         padding: $paddingbutton;
+        padding-right: 50px;
         border: none;
         &:focus{
             outline-color: $golden;
