@@ -112,22 +112,21 @@ p {
   font-family: "Cormorant Garamond", serif;
 }
 
-.aboutUs {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.6em;
-  margin-bottom: 1em;
 .blog_cards_content_info {
   font-family: "DM Sans", sans-serif;
   text-transform: uppercase;
   font-size: 0.7em;
 }
 
+.aboutUs {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.6em;
+  margin-bottom: 1em;
+}
+
 .blog_cards {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  background: linear-gradient(to bottom, rgba(243, 236, 211, 0.249), rgba(232, 218, 188, 0.393));
-  padding-bottom: 1em;
   width: 350px;
   flex-wrap: wrap;
   background: linear-gradient(to bottom, rgba(243, 236, 211, 0.249), rgba(232, 218, 188, 0.393));
@@ -463,33 +462,6 @@ p {
   place-items: center;
 }
 
-.why_us {
-  background-color: #ffffff;
-  padding-top: 8%;
-  position: relative;
-}
-.why_us .bg_about_icon {
-  position: absolute;
-  top: 50px;
-  right: 40px;
-}
-.why_us_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 4em;
-  gap: 1em;
-}
-.why_us_container figure {
-  width: 280px;
-}
-.why_us_container figure img {
-  width: 100%;
-  height: 100%;
-}
-.why_us_container_info {
-  width: 300px;
 .blog {
   margin-top: 10%;
   white-space: normal;
@@ -521,4 +493,33 @@ p {
 
 .blogpreview {
   padding-bottom: 1em;
+}
+
+.why_us {
+  background-color: #ffffff;
+  padding-top: 8%;
+  position: relative;
+}
+.why_us .bg_about_icon {
+  position: absolute;
+  top: 50px;
+  right: 40px;
+}
+.why_us_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 4em;
+  gap: 1em;
+}
+.why_us_container figure {
+  width: 280px;
+}
+.why_us_container figure img {
+  width: 100%;
+  height: 100%;
+}
+.why_us_container_info {
+  width: 300px;
 }/*# sourceMappingURL=style.css.map */
