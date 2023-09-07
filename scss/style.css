@@ -541,7 +541,6 @@ p {
   gap: 12px;
   grid-template-areas: "a a b c" "d e f f";
   justify-content: center;
-  align-items: center;
   place-content: center;
 }
 .gallery .gallery_container img {
