@@ -1,0 +1,120 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: linear-gradient(333deg, rgba(9,9,121,0) 42%, rgba(2,0,36,1) 84%), 
+    url('../../img/slider/img_bg_slider_home01.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 700px;
+    position: relative; 
+    .book {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        a {
+            color: $white;
+            text-decoration: none;
+            i {
+                color: $golden
+            }
+        }
+        a:hover{
+            color: $golden;
+        }
+    }
+    .logo{
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+    .pageTitle {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        button {
+            width: 160px;
+            margin-left: 80px;
+        }
+    }
+    
+    .qualityControl {
+        position: absolute;
+        top: 90px;
+        left: 490px;
+    }
+}
+
+#content1::after{
+    content: "\a";
+    white-space: pre;
+}
+
+#content2::after{
+    content: "\a";
+    white-space: pre;
+}
+
+/* navbar */
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* desktop */
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+  display: none;
+}
+
+.navbar {
+    width: 100%;
+    opacity: 0.85;
+    height: 50px;
+    z-index: 12;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+}
+
+.menu-items {
+  order: 2;
+  display: flex;
+}
+
+.menu-items li {
+  list-style: none;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.menu-items a {
+  text-decoration: none;
+  font-family: $text;
+  color: $white;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu-items a:hover {
+  color: $golden;
+  transition: color 0.3s ease-in-out;
+}
+
+
+
+  

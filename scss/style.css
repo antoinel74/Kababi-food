@@ -132,6 +132,15 @@ p {
   color: #202020;
 }
 
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  color: #ffffff;
+  font-size: 9em;
+  text-transform: uppercase;
+  margin-top: 130px;
+  margin-left: 80px;
+}
+
 .blog_cards {
   display: flex;
   flex-direction: column;
@@ -191,6 +200,7 @@ p {
 }
 .btn_clear:hover {
   background-color: #c8a96a;
+  border: none;
 }
 
 .btn_gold {
@@ -367,7 +377,6 @@ p {
   height: auto;
   background-size: cover;
   background-position: center;
-  padding-top: 8%;
   padding-bottom: 8%;
   position: relative;
 }
@@ -558,4 +567,114 @@ p {
   gap: 1em;
   padding: 4em;
   padding-bottom: 8%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image: linear-gradient(333deg, rgba(9, 9, 121, 0) 42%, rgb(2, 0, 36) 84%), url("../../img/slider/img_bg_slider_home01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 700px;
+  position: relative;
+}
+header .book {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+header .book a {
+  color: #ffffff;
+  text-decoration: none;
+}
+header .book a i {
+  color: #c8a96a;
+}
+header .book a:hover {
+  color: #c8a96a;
+}
+header .logo {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+header .pageTitle {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+header .pageTitle button {
+  width: 160px;
+  margin-left: 80px;
+}
+header .qualityControl {
+  position: absolute;
+  top: 90px;
+  left: 490px;
+}
+
+#content1::after {
+  content: "\a";
+  white-space: pre;
+}
+
+#content2::after {
+  content: "\a";
+  white-space: pre;
+}
+
+/* navbar */
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+/* desktop */
+.navbar input[type=checkbox],
+.navbar .hamburger-lines {
+  display: none;
+}
+
+.navbar {
+  width: 100%;
+  opacity: 0.85;
+  height: 50px;
+  z-index: 12;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+}
+
+.menu-items {
+  order: 2;
+  display: flex;
+}
+
+.menu-items li {
+  list-style: none;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.menu-items a {
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu-items a:hover {
+  color: #c8a96a;
+  transition: color 0.3s ease-in-out;
 }/*# sourceMappingURL=style.css.map */

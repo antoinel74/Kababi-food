@@ -3,6 +3,7 @@
     @include btn;
     &:hover {
         background-color: $golden;
+        border: none;
     }
 }
 

@@ -74,3 +74,12 @@ p {
 .blackbgtitle {
     color: #202020;
 }
+
+h1 {
+    font-family: $titre;
+    color: $white;
+    font-size: $ultrabigtext;
+    text-transform: uppercase;
+    margin-top: 130px;
+    margin-left: 80px;
+}
