@@ -9,48 +9,45 @@
   </head>
   <body>
     <header>
-        <nav class="navbar">
-            <section class=“navbar_sublist”>
-                <p>Home</p>
-                <ul>
-                    <li>list item </li>
-                    <li>list item </li>
-                    <li>list item </li>
-                </ul>
-            </section>
-            <li>About</li>
-            <section class=“navbar_sublist”>
-                <p>Space</p>
-                <ul>
-                    <li>list item </li>
-                    <li>list item </li>
-                </ul>
-            </section>
-            <section class=“navbar_sublist”>
-                <p>Shop</p>
-                <ul>
-                    <li>list item </li>
-                    <li>list item </li>
-                </ul>
-            </section>
-            <li>Contact</li>
-        </nav>
-        <div class="book">
-            <a href="#"><i class="fa-solid fa-phone"></i>+33 333 333 54</a>
-            <button class="btn_gold">Book a table <img src="img/other/arrow.png"></button>
+      <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" >
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#page">Page</a></li>
+                <li><a href="#food-menu">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <section class="title_xlarge">
-            <h1>Best quality foods</h1>
-            <button class="btn_clear">Explore our menu <img src="img/other/arrow.png"></button>
-        </section>
+      </nav>
+      <div class="logo">
+        <img src="img/logo/logo.png" alt="">
+      </div>
+        <div class="qualityControl">
+          <img src="img/slider/img_bg2.png" alt="">
+        </div>
+      <div class="book">
+        <a href="#"><i class="fa-solid fa-phone"></i>+33 333 333 54</a>
+        <button class="btn_gold">Book a table <img src="img/other/arrow.png"></button>
+      </div>
+      <div class="pageTitle">
+      <h1><span id="content1">Best</span> <span id="content2">quality</span> <span id="content3">foods</span></h1>
+      <button class="btn_clear">Explore our menu <img src="img/other/arrow.png"></button>
+    </div>
     </header>
     <main>
         <section class="category">
-          <div class="categorybg">
-            <div class="category_header">
-              <span class="fade_title">category</span>
-            </div>
-            <h2 class="title_large">Choose your best category</h2>
+            <div class="categorybg">
+                <div class="category_header">
+                    <span class="fade_title">category</span>
+                </div>
+            <h2 id="home" class="title_large">Choose your best category</h2>
             <h3 class="subtitle">Best foods for you & your family</h3>
             <div class="cat_container">
                   <a href="https://google.com">
@@ -128,7 +125,7 @@
           <div class="category_header">
             <span class="fade_title">About us</span>
           </div>
-            <h2 class="title_large">Why choose us?</h2>
+            <h2 id="about" class="title_large">Why choose us?</h2>
             <h3 class="subtitle">Best foods for your & your family</h3>
             <figure class="bg_about_icon">
               <img src="img/about-us/iconbgabout.png" alt="">
@@ -144,7 +141,7 @@
               </div>
             </div>
         </section>
-        <section class="special_offer">
+        <section id="food-menu" class="special_offer">
           <div class="bgmenu_left">
             <img src="img/our-menu/img2bg-our-menu.jpg"alt="menu salt">
           </div>
@@ -235,7 +232,7 @@
             <div class="category_header">
                 <span class="fade_title_back">gallery</span>
             </div>
-            <h2 class="title_large">Restaurant photo gallery</h2>
+            <h2 id="page" class="title_large">Restaurant photo gallery</h2>
             <h3 class="subtitle">Best foods for you & your family</h3>
               <div class="gallery_container">
                 <div class="gallery_card--a">
@@ -453,7 +450,7 @@
               </div>
             </div>
             <div class="info_footer_contact">
-              <h4 class="footertitle">Contact</h4>
+              <h4 id="contact" class="footertitle">Contact</h4>
               <ul>
                 <li>
                   <i class="fa-solid fa-location-dot fa-icons"></i>56 main street,
