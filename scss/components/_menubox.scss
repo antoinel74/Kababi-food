@@ -15,8 +15,13 @@
         }
     }
 }
-
 .menu_arrow {
     width: 1em;
     height: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    .cat_box {
+        padding: 20px 0px 20px;
+    }
 }

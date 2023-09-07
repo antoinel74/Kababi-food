@@ -43,6 +43,7 @@ input[type="text"], button, p {
 p {
     font-weight: $light;
     font-size: $smalltext;
+    font-optical-sizing: auto;
 }
 
 @media only screen and (max-width: 1080px) {
