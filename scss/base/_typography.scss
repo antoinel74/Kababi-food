@@ -1,13 +1,14 @@
 .title_large {
-    font-size: 2em;
+    font-size: $titletext;
     text-transform: uppercase;
     text-align: center;
     font-weight: $default;
     font-family: $titre;
+    z-index: 0;
 }
 
 .menu_title {
-    font-size: 1.1em;
+    font-size: $biggertext;
     padding: $paddingbutton;
     font-family: $titre;
 }
@@ -20,14 +21,15 @@
 
 .fade_title {
     text-align: left;
-    font-size: 9vw;
-    margin-left: 2%;
+    font-size: $ultrabigtext;
+    padding-left: 10px;
     color: $golden;
     opacity: 20%;
     text-transform: uppercase;
     position: absolute;
     margin-top: -4%;
     font-family: $titre;
+    z-index: 1;
 }
 
 input[type="text"], button, p {
@@ -36,21 +38,27 @@ input[type="text"], button, p {
 
 p {
     font-weight: $light;
-    font-size: 0.9em;
+    font-size: $smalltext;
 }
 
 .special_box_title {
     font-family: $titre;
-    font-size: 1.3em;
+    font-size: $biggertext;
     font-weight: $medium;
     line-height: 1.6;
     text-transform: capitalize;
 }
 
 .price {
-    font-size: 3em;
+    font-size: $verybigtext;
     color: $golden;
     font-family: $titre;
+}
+
+.blog_cards_content_info {
+    font-family: $text;
+    text-transform: uppercase;
+    font-size: $xsmalltext;
 }
 
 .aboutUs {
@@ -58,3 +66,4 @@ p {
     font-size: $aboutustext;
     margin-bottom: $paddingbutton;
 }
+
