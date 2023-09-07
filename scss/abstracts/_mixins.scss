@@ -3,8 +3,8 @@
 @mixin btn {
     background: none;
     color: $white;
-    border: 2px solid $grey;
     cursor: pointer;
+    border: solid 0.2em #9a9a9a2e;
     font-weight: $bold;
     padding: $paddingbutton;
     border-radius: 5px;
@@ -15,5 +15,15 @@
         height: 8px;
         margin-left: 0.6em;
         filter: invert(100%);
+    }
+}
+
+@mixin link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    &:visited {
+        color: white;
+        text-decoration: none;
     }
 }

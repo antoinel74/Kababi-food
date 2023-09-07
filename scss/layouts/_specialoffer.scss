@@ -1,11 +1,11 @@
 .special_offer {
+    width: 100%;
+    height: auto;
     padding-top: $paddingsection;
     background: $sepia;
     position: relative;
-    width: 100%;
     .bgmenu_right {
         position: absolute;
-        width: 28%;
         height: 100%;
         top: 0;
         right: 0;
@@ -14,12 +14,15 @@
         }
     }
     .bgmenu_left {
+        display: inline-block;
         position: absolute;
-        width: 12%;
+        max-width: 15%;
+        object-fit: contain;
         left: 0;
-        top: 50%;
+        top: 40%;
         img {
             width: 100%;
+            height: auto;
         }
     }
 }
@@ -27,11 +30,27 @@
 .special_list {
     display: grid;
     padding: 5% 0 10% 0;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto auto;
     gap: 10px;
-    margin: 0 11% 0 11%;
+    margin: 0 10% 0 10%;
     justify-content: center;
     align-items: center;
     place-items: center;
+}
+
+@media only screen and (max-width: 1080px) {
+    .special_list {
+        display: flex;
+        flex-direction: column;
+    }
+    .bgmenu_left {
+        display: none;
+        img {
+            display: none;
+        }
+    }
+    .bgmenu_right {
+        display: none;
+    }
 }
 

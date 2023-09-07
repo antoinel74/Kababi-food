@@ -1,0 +1,85 @@
+footer {
+    width: 100%;
+    height: auto;
+    background-image: url(../../img/footer/img-ng-footer.jpg);
+    color: white;
+    a{
+        @include link;
+    }
+    .logofooter {
+        display: flex;
+        justify-content: center;
+        padding: $verybigtext;
+        img {
+            width: 200px;
+            height: auto;
+        }
+    }
+    .container_footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    li {
+        padding-top: 10px;
+        line-height: 1.6;
+        font-size: $smalltext;
+        font-family: $text;
+        opacity: 50%;
+    }
+    .info_footer_news {
+        padding: 0 3em 3em 3em;
+        max-width: 390px;
+        li {
+            margin-bottom: 20px;
+        }
+    }
+    .info_footer {
+        padding:  0 3em 3em 3em;
+    }
+    .info_footer_contact {
+        padding: 0 3em 3em 3em;
+        max-width: 390px;
+    }
+    .container_copyright {
+        margin: 0 5% 0 5%;
+        border-top: 1px solid #ffffff50;
+        padding: $paddingbutton;
+        display: flex;
+        flex-direction: row;
+    }
+    .logo_final {
+        display: flex;
+        justify-content: center;
+        img {
+            max-width: 60px;
+            height: auto;
+        }
+    }
+    .copyright {
+        width: 65%;
+        float: left;
+        color: $grey;
+        font-size: $smalltext;
+        a {
+            color: $golden;
+            font-weight: $medium;
+        }
+    }
+    .social {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .info_footer {
+        display: none;
+    }
+    .logo_final_img {
+        display: none;
+    }
+}

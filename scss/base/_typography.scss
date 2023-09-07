@@ -29,9 +29,21 @@
     position: absolute;
     margin-top: -4%;
     font-family: $titre;
-    z-index: 1;
 }
 
+.fade_title_back {
+    @extend .fade_title;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 1080px) {
+    .fade_title {
+        display: none;
+    }
+    .fade_title_back {
+        display: none;
+    }
+}
 input[type="text"], button, p {
     font-family: $text;
 }
@@ -82,4 +94,10 @@ h1 {
     text-transform: uppercase;
     margin-top: 130px;
     margin-left: 80px;
+}
+
+.footertitle {
+    font-family: $titre;
+    font-size: $titletext;
+    margin-bottom: $normaltext;
 }
