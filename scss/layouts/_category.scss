@@ -1,11 +1,8 @@
 .category {
     width: 100%;
     height: auto;
-    background-size: cover;
-    background-position: center;
     padding-top: $paddingsection;
     padding-bottom: $paddingsection;
-    position: relative;
 }
 
 .cat_container {
@@ -27,6 +24,7 @@
 
 .categorybg {
     width: 100%; 
+    position: relative;
     height: auto;
     padding: 8% 0 0% 0%;
     background-image: 
