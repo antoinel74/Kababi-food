@@ -164,8 +164,8 @@ p {
 .btn_clear {
   background: none;
   color: #ffffff;
-  border: 2px solid #b0b0b0;
   cursor: pointer;
+  border: solid 0.2em rgba(154, 154, 154, 0.1803921569);
   font-weight: 600;
   padding: 1em;
   border-radius: 5px;
@@ -185,8 +185,8 @@ p {
 .btn_gold {
   background: none;
   color: #ffffff;
-  border: 2px solid #b0b0b0;
   cursor: pointer;
+  border: solid 0.2em rgba(154, 154, 154, 0.1803921569);
   font-weight: 600;
   padding: 1em;
   border-radius: 5px;
@@ -212,8 +212,8 @@ p {
 .btn_white, .btn_white_blog {
   background: none;
   color: #ffffff;
-  border: 2px solid #b0b0b0;
   cursor: pointer;
+  border: solid 0.2em rgba(154, 154, 154, 0.1803921569);
   font-weight: 600;
   padding: 1em;
   border-radius: 5px;
@@ -535,6 +535,7 @@ p {
 }
 .gallery .gallery_container {
   display: grid;
+  margin-top: 3em;
   padding-left: 15%;
   padding-right: 15%;
   gap: 12px;
@@ -552,4 +553,9 @@ p {
   color: white;
   width: inherit;
   height: inherit;
+}
+.gallery .btn_gallery {
+  display: flex;
+  padding: 3em;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
